@@ -1,7 +1,7 @@
 module.exports = {
   directories: {
     output: 'dist',
-    app: './',
+    buildResources: 'assets',
   },
   win: {
     icon: './public/logo512.png',
@@ -13,5 +13,5 @@ module.exports = {
       },
     ],
   },
-  files: ['build/', 'node_modules/', 'package.json'],
+  files: ['build/**/*'],
 };

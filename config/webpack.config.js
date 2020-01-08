@@ -1,7 +1,6 @@
 const path = require('path');
 
 let config = {
-  // mode: process.env.NODE_ENV || 'production',
   entry: './electron/main.ts',
   output: {
     path: path.resolve(__dirname, '../build'),
