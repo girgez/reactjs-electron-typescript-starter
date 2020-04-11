@@ -2,7 +2,7 @@
 import styled from "styled-components";
 
 type Props = {
-  titleColor: string;
+  titleColor?: string;
 };
 
 export const SectionTitle = styled.h1`
